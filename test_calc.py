@@ -4,8 +4,8 @@ import time
 # Настройки для подключения к Appium
 desired_caps = {
     "platformName": "Android",
-    "platformVersion": "YOUR_ANDROID_VERSION",  # Например, "11"
-    "deviceName": "YOUR_DEVICE_NAME",           # Например, "emulator-5554"
+    "platformVersion": "13",  
+    "deviceName": "sm-N770f/DSM",           
     "appPackage": "com.google.android.calculator",
     "appActivity": ".Calculator",
     "noReset": True,
