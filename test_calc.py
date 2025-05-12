@@ -1,7 +1,7 @@
 from appium import webdriver
 import time
 import pytest
-@pytest.fixture(scope="module")
+@pytest.fixture
 def driver():
     desired_caps = {
     "platformName": "Android",
